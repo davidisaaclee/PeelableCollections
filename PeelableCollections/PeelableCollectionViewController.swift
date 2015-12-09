@@ -8,14 +8,10 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
-
 class PeelableCollectionViewController: UIViewController {
 
 	@IBOutlet var delegate: PeelableCollectionDelegate?
-
 	@IBOutlet var collectionView: UICollectionView!
-
 	// where peels go to live
 	@IBOutlet var peeledStageView: UIView!
 
